@@ -1,6 +1,12 @@
 # AnonMail
 Anonmail Provides You Temporary And Disosable Mails To Use
 
+## How To Install
+This Code is hosted on PyPI so you can install by;
+```
+pip install anonmail
+```
+
 ## Requirements 
 -> requests 
 <br>```pip install requests```
