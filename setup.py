@@ -1,0 +1,28 @@
+from distutils.core import setup
+setup(
+	name = 'anonmail',
+	packages = ['anonmail'],
+	version = '1.0beta',
+	description = 'anonmail is a service which lets you use and integrate disposable emails for free.',
+	author = 'TheSpeedX',
+	author_email = 'ggspeedx29@gmail.com',
+	url = 'https://github.com/TheSpeedX/anonmail',
+	download_url = 'https://github.com/TheSpeedX/anonmail/tarball/master',
+	keywords = ['anonmail', 'fakemail', 'tempmail', 'mailapi','disposable','secure','temporary'],
+	data_files=[('', ['LICENSE'])],
+    install_requires=['requests'],
+	include_package_data=True,
+	classifiers=[
+	'Development Status :: 4 - Beta',
+	'Intended Audience :: Developers',
+	'Topic :: Software Development :: Libraries :: Python Modules',
+	'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+	'Programming Language :: Python :: 3',
+	'Programming Language :: Python :: 3.4',
+	'Programming Language :: Python :: 3.5',
+	'Programming Language :: Python :: 3.6',
+	'Programming Language :: Python :: 3.7',
+	'Operating System :: OS Independent',
+	'Environment :: Console',
+	],
+)
