@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
 	name = 'anonmail',
 	packages = ['anonmail'],
-	version = '1.0beta',
+	version = '1.1beta',
 	description = 'anonmail is a service which lets you use and integrate disposable emails for free.',
 	author = 'TheSpeedX',
 	author_email = 'ggspeedx29@gmail.com',
