@@ -7,7 +7,7 @@ setup(
 	author = 'TheSpeedX',
 	author_email = 'ggspeedx29@gmail.com',
 	url = 'https://github.com/TheSpeedX/anonmail',
-	download_url = 'https://github.com/TheSpeedX/anonmail/tarball/master',
+	download_url = 'https://github.com/TheSpeedX/anonmail/archive/v1.0beta.tar.gz',
 	keywords = ['anonmail', 'fakemail', 'tempmail', 'mailapi','disposable','secure','temporary'],
 	data_files=[('', ['LICENSE'])],
     install_requires=['requests'],
