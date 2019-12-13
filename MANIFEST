@@ -3,5 +3,5 @@ LICENSE
 README.rst
 setup.cfg
 setup.py
-anonmail\__init__.py
-anonmail\anonmail.py
+fraudster\__init__.py
+fraudster\fraudster.py

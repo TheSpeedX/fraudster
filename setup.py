@@ -6,7 +6,7 @@ with open("README.rst", "r") as fh:
 setup(
 	name = 'fraudster',
 	packages = ['fraudster'],
-	version = '1.2beta',
+	version = '1.3beta',
 	description = 'fraudster is a service which lets you use and integrate disposable emails for free.',
 	author = 'TheSpeedX',
 	author_email = 'ggspeedx29@gmail.com',
