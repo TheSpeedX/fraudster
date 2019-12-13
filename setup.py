@@ -1,14 +1,20 @@
 from distutils.core import setup
+
+with open("README.rst", "r") as fh:
+	long_description = fh.read()
+	
 setup(
-	name = 'anonmail',
-	packages = ['anonmail'],
+	name = 'fraudster',
+	packages = ['fraudster'],
 	version = '1.2beta',
-	description = 'anonmail is a service which lets you use and integrate disposable emails for free.',
+	description = 'fraudster is a service which lets you use and integrate disposable emails for free.',
 	author = 'TheSpeedX',
 	author_email = 'ggspeedx29@gmail.com',
-	url = 'https://github.com/TheSpeedX/anonmail',
-	download_url = 'https://github.com/TheSpeedX/anonmail/archive/v1.2beta.tar.gz',
-	keywords = ['anonmail', 'fakemail', 'tempmail', 'mailapi','disposable','secure','temporary'],
+	long_description=long_description,
+	long_description_content_type="text/markdown",
+	url = 'https://github.com/TheSpeedX/fraudster',
+	download_url = 'https://github.com/TheSpeedX/fraudster/archive/v1.3beta.tar.gz',
+	keywords = ['fraud','fraudster','anonmail', 'fakemail', 'tempmail', 'mailapi','disposable','secure','temporary'],
 	data_files=[('', ['LICENSE'])],
     install_requires=['requests'],
 	include_package_data=True,

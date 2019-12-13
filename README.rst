@@ -1,10 +1,10 @@
-# AnonMail
-Anonmail Provides You Temporary And Disosable Mails To Use
+# Fraudster
+Fraudster Provides You Temporary And Disosable Mails To Use
 
 ## How To Install
 This Code is hosted on PyPI so you can install by;
 ```
-pip install anonmail
+pip install fraudster
 ```
 
 ## Requirements 
@@ -12,45 +12,45 @@ pip install anonmail
 <br>```pip install requests```
 
 ### How To USE
-To Get Available Domain For AnonMail
+To Get Available Domain For Fraudster
 
 ```
->>> import anonmail
->>> domain=anonmail.get_available_domain()
+>>> import fraudster
+>>> domain=fraudster.get_available_domain()
 ```
 
 To Get A Random Person Name
 
 ```
->>> from anonmail import *
+>>> from fraudster import *
 >>> name=get_name()
 ```
 
 To Get A Random Disposable E-Mail
 
 ```
->>> from anonmail import *
+>>> from fraudster import *
 >>> email=get_email()
 ```
 
 To Get A Custom UserName E-Mail
 
 ```
->>> from anonmail import *
+>>> from fraudster import *
 >>> email=get_email("speedx",get_available_domains()[0])
 ```
 
 To Get A List of All Received Mails
 
 ```
->>> from anonmail import *
+>>> from fraudster import *
 >>> mails=fetch_emails()
 ```
 
 To Get Body Of Any Mail
 
 ```
->>> from anonmail import *
+>>> from fraudster import *
 >>> body=fetch_content(<Your_Mail_ID>,<Your_Message_ID>)
 ```
 
